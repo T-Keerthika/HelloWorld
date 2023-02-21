@@ -1,0 +1,11 @@
+package com.example.demo.controller;
+
+import java.util.Arrays;
+
+public class controller {
+
+	
+	public List<pojoclass> info(){
+		return Arrays.asList(new pojoclass(1,"keerthika","IT"),new pojoclass(2,"varna","CSE"))
+	}
+}
